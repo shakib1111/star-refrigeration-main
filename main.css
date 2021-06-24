@@ -70,7 +70,8 @@ body{
 .list-non-bullet {
     list-style: none;
     padding-inline-start: 0px;
-}
+    }
+
 .list-item-inline {
     display: inline;
     padding: 0rem 0.5rem;
@@ -147,8 +148,8 @@ border-bottom-left-radius: 1rem;
 }
 .section h1 {
     text-align: center;
-   
-     padding: 0.5rem; 
+    font-weight: bold;
+    padding: 0.5rem; 
 }
 
 .ow {
@@ -219,7 +220,7 @@ section a:hover{
  #button{
      
     background-color: transparent;
-    border: black double 0.3rem;
+    border: black solid 0.1rem;
     border-radius: 0.5rem;
     color: black;
 }
@@ -251,11 +252,27 @@ section a:hover{
 
         color: black;
   }
-  .float-child{
-      color: black;
-      margin-top: 0.1rem;
+  .float-container{
+      padding: 10px;
+    
   }
+  .float-child{
+    width: 50%;
+    float: right;
+    padding: 10px;
+    color: black;
+    text-align: left;
+    margin: auto;
+  }
+  .star{
+    text-align: left;
+   
+}
+.milan{
+    text-align: right;
+}
 
+/* stylling para */
   .para{
       color: black;
       size: 4px;
@@ -270,3 +287,5 @@ section a:hover{
      font-size: 17px;
      font-family: Chango;
  }
+
+ 
