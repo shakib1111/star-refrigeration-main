@@ -13,12 +13,7 @@ body{
     font-weight: bold;
     background-color: lightyellow;
 }
-hr{
-    color: black;
-    padding: 0.5rem;
-    height: 1px;
-    
-}
+
 /* spaces */
 .margin-md{
     margin: 2rem;
