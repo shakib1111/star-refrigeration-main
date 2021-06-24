@@ -164,7 +164,7 @@ background-color: var(--off-white);
 /* footer */
 
 .footer{
-    background-color: var(--primay-color);
+    background-color: #D1D5DB;
     border-top-right-radius: 1rem;
     padding: 4rem 1rem;
     color:white;    
