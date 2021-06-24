@@ -11,10 +11,12 @@ body{
     font-size: 20px;
     color: black;
     font-weight: bold;
+    background-color: lightyellow;
 }
 hr{
-    color: rgb(255, 255, 255);
-    padding: 0.5rem ;
+    color: black;
+    padding: 0.5rem;
+    height: 1px;
     
 }
 /* spaces */
@@ -267,4 +269,9 @@ section a:hover{
       text-decoration: underline;
   }
 
- 
+ /* stylling tag-line */
+ .tag-line{
+     color:rgb(0, 0, 0);
+     font-size: 17px;
+     font-family: Chango;
+ }
