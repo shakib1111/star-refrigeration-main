@@ -81,8 +81,8 @@ body{
 
 /* navigation */
 .navigation {
-color: aqua;
-background-color: var(--primay-color); 
+color: white;
+background-color: #111827; 
 padding: 1rem;
 border-bottom-left-radius: 1rem;
 
@@ -90,22 +90,26 @@ border-bottom-left-radius: 1rem;
 
 .navigation .nav-brand{
     font-weight: bolder;
-    text-shadow: 2px 2px 1px white;
+    font-family: 'Playfair Display', serif;
+    text-shadow: 2px 2px 1px rgb(0, 0, 0);
     font-size: large;
 }
 .nav-brand a{
     text-decoration: none;
     font-weight: bold;
-    color:black;
-    font-family: Chango;
+    font-family: 'Playfair Display', serif;
     font-size: x-large;
+    color: white;
 }
+
 .nav-brand a:hover{
     text-decoration: underline;
 }
 .navigation .nav-pills{
     color: var(--off-white);
     text-align: right;
+    font-weight: normal;
+    font-family: 'Roboto Slab', serif;
 }
 
 .navigation .link{
@@ -114,7 +118,7 @@ border-bottom-left-radius: 1rem;
 }
 .navigation .link-active{
     font-weight: bold;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     text-decoration: underline;
 }
 
