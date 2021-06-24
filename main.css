@@ -78,6 +78,12 @@ body{
     text-align: right;
 }
 
+/* stylling nav image */
+.nav-img{
+    height: 80%;
+    width: 50%;
+}
+
 
 /* navigation */
 .navigation {
@@ -170,13 +176,11 @@ background-color: var(--off-white);
     color:white;    
 }
 .footer .link{
-    color: rgb(0, 0, 0);
+    color: black;
+    font-weight: bold;
     
 }
-/* trying hover */
-/* .footer .link :hover{
-    text-decoration: underline;
-} */
+
 .footer .footer-header{
     font-weight: bold; 
      font-size: large;
@@ -188,13 +192,10 @@ background-color: var(--off-white);
 }
 
 .footer h1{
-    color:rgb(0, 0, 0)
+    color:rgb(0, 0, 0);
 }
 
-/* .footer ul :hover{
-   text-decoration: underline;
-   
-} */
+
 section a:hover{
     text-decoration: underline;
     background-color: rgb(255, 255, 255);
@@ -227,6 +228,7 @@ section a:hover{
     border: black solid 0.1rem;
     border-radius: 0.5rem;
     color: black;
+    font-weight: bolder;
 }
  #button:hover {
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
